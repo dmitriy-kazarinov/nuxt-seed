@@ -1,6 +1,6 @@
 # nuxt-seed
 
-> Nuxt seed for development
+> The de facto nuxt-seed repo for building universal apps with [Vue](https://vuejs.org/), [Vuex](https://vuex.vuejs.org/en/), [ES6](https://git.io/es6features), [Webpack 2](https://webpack.js.org/) and CSS framework [Bulma](http://bulma.io/)
 
 ## Build Setup
 

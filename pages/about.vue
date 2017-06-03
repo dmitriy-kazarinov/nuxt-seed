@@ -1,6 +1,7 @@
 <template>
   <section class="container">
     <div>
+      <AppHeader/>
       <div class="about">
         Nuxt seed for development.
       </div>
@@ -10,3 +11,12 @@
     </div>
   </section>
 </template>
+<script>
+import AppHeader from '~components/AppHeader.vue'
+
+export default {
+  components: {
+    AppHeader
+  }
+}
+</script>

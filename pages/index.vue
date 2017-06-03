@@ -1,6 +1,7 @@
 <template>
   <section class="container">
     <div>
+      <AppHeader/>
       <logo/>
       <h1 class="title is-1">
         {{title}}
@@ -24,6 +25,7 @@
 
 <script>
 import Logo from '~components/Logo.vue'
+import AppHeader from '~components/AppHeader.vue'
 import { mapState } from 'vuex'
 import axios from 'axios'
 // get test data
@@ -40,7 +42,8 @@ export default {
     }
   },
   components: {
-    Logo
+    Logo,
+    AppHeader
   },
   mounted () {
     console.info(this.counter)

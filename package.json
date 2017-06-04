@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Nuxt seed for development",
   "author": "Dmitry Dulin <dulin.developer@gmail.com>",
-  "private": true,
   "dependencies": {
     "nuxt": "latest"
   },

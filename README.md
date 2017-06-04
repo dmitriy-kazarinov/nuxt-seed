@@ -1,4 +1,6 @@
-# nuxt-seed
+# nuxt-seed [![npm version](https://badge.fury.io/js/nuxt-seed.svg)](http://badge.fury.io/js/nuxt-seed)
+
+[![NPM](https://nodei.co/npm/nuxt-seed.png?downloads=true)](https://nodei.co/npm/nuxt-seed/)
 
 > The de facto nuxt-seed repo for building universal apps with [Vue](https://vuejs.org/), [Vuex](https://vuex.vuejs.org/en/), [ES6](https://git.io/es6features), [Webpack 2](https://webpack.js.org/) and CSS framework [Bulma](http://bulma.io/)
 

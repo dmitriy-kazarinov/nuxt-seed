@@ -20,6 +20,9 @@ const createStore = () => {
     mutations: {
       setUsers (state, users) {
         state.users = users
+      },
+      incrementCounter (state) {
+        state.counter += 1
       }
     }
   })

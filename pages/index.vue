@@ -11,6 +11,8 @@
       </h2>
       <div class="notification">
         <p class="tag is-black">Counter from Vuex store = {{counter}}</p>
+        <br />
+        <button v-on:click="handleIncrement()">Increment</button>
       </div>
       <div class="content">
         <p>Users list from Vuex</p>
@@ -39,6 +41,11 @@ export default {
   data () {
     return {
       title: 'nuxt-seed'
+    }
+  },
+  methods: {
+    handleIncrement () {
+      this.$store.commit('incrementCounter')
     }
   },
   components: {

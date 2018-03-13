@@ -24,8 +24,8 @@
 </template>
 
 <script>
-import Logo from '~components/Logo.vue'
-import AppHeader from '~components/AppHeader.vue'
+import Logo from '~/components/Logo.vue'
+import AppHeader from '~/components/AppHeader.vue'
 import { mapState } from 'vuex'
 import axios from 'axios'
 // get test data
